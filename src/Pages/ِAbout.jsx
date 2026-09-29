@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import postsData from "../data/posts.json";
+import postsData from "../Data/posts.json";
 
 function About() {
   const authors = [

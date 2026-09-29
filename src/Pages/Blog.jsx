@@ -1,5 +1,5 @@
 import { useState } from "react";
-import postsData from "../data/posts.json";
+import postsData from "../Data/posts.json";
 
 function Blog() {
   const [search, setSearch] = useState("");
