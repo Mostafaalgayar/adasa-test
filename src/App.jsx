@@ -1,12 +1,14 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, createBrowserRouter } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-import NotFound from "./pages/NotFound";
+import NotFound from "./Pages/NotFound"
 import Home from "./Pages/Home";
 import Blog from "./Pages/Blog";
 import BlogDetails from "./Pages/BlogDetails";
 import About from "./Pages/ِAbout";
 import Layout from "./Layout/Layout";
+
+
 
 function App() {
   return (
