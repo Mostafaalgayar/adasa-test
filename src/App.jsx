@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Layout from "./Layout/Layout";
-import About from "./Pages/ِAbout";
-import Home from "./pages/Home";
-import Blog from "./Pages/Blog";
-import BlogDetails from "./pages/BlogDetails";
+
 import NotFound from "./pages/NotFound";
+import Home from "./Pages/Home";
+import Blog from "./Pages/Blog";
+import BlogDetails from "./Pages/BlogDetails";
+import About from "./Pages/ِAbout";
+import Layout from "./Layout/Layout";
 
 function App() {
   return (
